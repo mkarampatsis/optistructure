@@ -1,0 +1,86 @@
+<!-- Portfolio Section -->
+<section class="site-section section-focus portfolio-section" id="portfolio">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.portfolio-title }}</h2>
+        <hr class="normal">
+      </header>
+
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.portfolio-description }}</p>
+      </div>
+
+    </div>
+
+    <!-- Filter Menu -->
+    <div class="row filter-menu-wrapper">
+      <div class="col-md-8 col-md-push-2">
+        <div class="filter-menu">
+          <ul>
+            <li data-filter="all" class="current">All</li>
+
+            {% for category in site.portfolio-categories %}
+              <li data-filter=".{{ category | replace:' ','-' | downcase }}" >{{ category }}</li>
+            {% endfor %}
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Grid -->
+    <div class="row portfolio-grid">
+
+      {% for item in site.portfolio %}
+
+      <div class="col-md-3 col-sm-6 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
+        <figure class="img-wrap">
+          <img src="{{ site.baseurl }}/images/activities/{{ item.image }}" alt="Activities Item Image" />
+        </figure>
+        <div class="item-content">
+          <h4>{{ item.title }}</h4>
+          <h4>{{ item.categories | first }}</h4>
+          <div class="links">
+            <ul>
+              <li><a href="#" class="item-link" onclick="showActivity('{{ item.url}}');return false;" ><i class="pe-7s-link"></i></a></li>
+              <li><a href="#" class="item-like"><i class="pe-7s-like"></i></a></li>
+              <li><a href="{{ site.baseurl }}/images/activities/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+
+		
+
+      <!-- Overlay Lightbox -->
+      <div id="overlay" class="overlay"></div>
+
+    </div>
+    
+    <div id="holistic">
+		<h3>Holistic optimization</h3>
+		<p>OptiStructure provides an holistic optimization approach in terms of final design stage for real-world civil engineering structures such as buildings, bridges or more complex civil engineering structures.</p>
+	</div>
+	<div id="life-cycle">
+		<h3>Life-cycle cost analysis</h3>
+		<p>Life-cycle cost analysis (LCCA) principles represent a particularly important component of OptiStructure’s decision making consulting services for designing cost-effective and ecological structures, taking into account future damages due to earthquakes and energy is consumed during construction.</p>
+	</div>	
+	<div id="construction">
+		<h3>Construction software and services</h3>
+		<p>SOCP, the world’s first advanced optimization platform, reduces cost consistent with required performance, reliability & safety criteria. OptiStructure addresses optimal construction design via a state-of-the-art API library. SOCP, which delivers efficient optimization algorithms, robust analysis and effective constraints handling. SOCP bridges usability of optimization tools and massive challenges of civil/architectural engineer in construction industry.</p>
+	</div>	
+	<div id="solutions">
+		<h3>Software solutions</h3>
+		<p>OptiStructure offers custom-made software solutions based on specific client needs in the fields of engineering, optimization and machine learning. Based on project-specific requirements solutions of up-to-date software architecture, parallel processing, database exploitation and multi-language coding are provided.</p>
+	</div>		
+
+  </div>
+</section>

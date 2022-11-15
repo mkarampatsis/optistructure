@@ -1,0 +1,429 @@
+#
+# Sera - OnePage Jekyll Template
+# Configuration File
+#
+
+# Information for compile
+exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md"]
+
+#
+# If your website is placed in a separate folder on your server please modify
+# this with your folder name, by default is empty.
+# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
+# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
+# than scripts can't be loaded corectly.
+# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
+# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
+#
+baseurl:
+
+# the base hostname & protocol for your site
+url: "http://localhost:3000"
+
+####################################
+######   Optional Features    ######
+####################################
+smooth-scroll: false
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATIONS   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: OptiStructure Web Page
+# Website language
+lang: en-US
+# Header Title
+header-title: OptiStructure
+# Header Tagline
+header-tagline: Optimizing Structural Design
+
+####################################
+######   CTA Header Buttons   ######
+####################################
+
+# Focus Buttons
+header-focus-button:
+  title: Download Now
+  url: https://themeforest.net/collections/6069390-sera
+
+# Secondary Buttons
+header-secondary-button:
+  title: Discover More
+  url: http://themeforest.net/user/gleesik
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: your_email@example.com
+
+# Offer Banner Link
+# Default link is a link to all Sera OnePage products
+banner-link: https://themeforest.net/collections/6069390-sera
+
+####################################
+######  Global Social Links   ######
+####################################
+youtube: '#'
+pinterest: '#'
+facebook: '#'
+twitter: '#'
+google-plus: '#'
+vimeo: '#'
+
+#########################
+######   Widgets   ######
+#########################
+
+#
+# About Blog Author Widget
+#
+about-widget:
+  author-avatar: avatar-02.jpg
+  author-name: John Doe
+  author-tagline: Blog Author
+  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
+  author-social-links:
+    youtube: '#'
+    pinterest: '#'
+    facebook: '#'
+    twitter: '#'
+    google-plus: '#'
+
+# Google Map JS api
+# This is my api for this template
+key-api: AIzaSyDbnxVZQannH0GF4gtnnBFPiP9ofm2WqGs
+map-text: OptiStructure Map
+map-text-location: London, Britain
+map-lat: 51.515022
+map-lng: -0.123005
+
+# Enter your Mailchimp User ID and Campaign ID
+# @TODO: Add in a link for where to find these
+mailchimp:
+  user-id: REPLACEME
+  list-id: REPLACEME
+
+####
+#
+# Hi you now use Sera - OnePage Jekyll Template created by Gleesik™
+#
+# Below are each section from the website in order from top to bottom
+# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
+#
+####
+
+#####################################
+#############   About   #############
+#####################################
+about-title: About
+about-description:
+
+
+#####################################
+#############  Features  ############
+#####################################
+features-title: Expertise
+features-description: 
+
+#
+# Features
+#
+features:
+
+# Feature
+- title: Structural Design
+  description: Strong academic background on structural engineering coupled with significant project experience.
+  icon: pe-7s-vector
+
+# Feature
+- title: Machine Learning
+  description: High-end machine learning applications for dealing with higher order complexities of modern engineering projects.
+  icon: pe-7s-shuffle
+
+# Feature
+- title: Applied Optimization
+  description: Solid experience of applied structural design optimization on real-life projects.
+  icon: pe-7s-graph2
+
+# Feature
+- title: S/W Development
+  description: Momentous know-how in custom-based software design and coding.
+  icon: pe-7s-airplay
+
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio-title: Portfolio
+portfolio-description: <p><h3>Consulting Services</h3></p><p>Optimization in structural engineering lays on the foundation of bringing together human experience with cutting edge algorithms. Optistructure focuses on applying in-house developed, AI-enhanced metaheuristic and gradient-based optimization techniques in structural engineering design projects. By taking advantage of high-end computational methodologies coupled with structural engineers insights, designs of higher quality with respect to performance and cost can be derived.</p><p><h3>Software Development</h3></p><p>Optistructure delivers construction software and services via the internet also in the form of E2E solutions.</p>
+
+#
+# Portfolio Grid
+#
+portfolio-categories: [Consulting Services, Software Development]
+portfolio:
+
+# Portfolio Item
+- title: O<span class="thin">ptiStructure</span>
+  categories: [Consulting Services]
+  image: consulting1.jpg
+  url: holistic
+
+# Portfolio Item
+- title: O<span class="thin">ptiStructure</span>
+  categories: [Consulting Services]
+  image: consulting2.jpg
+  url: life-cycle
+
+# Portfolio Item
+- title: O<span class="thin">ptiStructure</span>
+  categories: [Software Development]
+  image: sw1.jpg
+  url: construction
+
+# Portfolio Item
+- title: O<span class="thin">ptiStructure</span>
+  categories: [Software Development]
+  image: sw2.jpg
+  url: solutions
+
+# Portfolio Item
+#- title: S<span class="thin">era</span> Style
+#  categories: [Development, Logo]
+#  image: img-05.jpg
+#  url: '#'
+
+#####################################
+##########  Core Features  ##########
+#####################################
+core-title: Why OptiStructure
+core-description: Within the Architectural, Engineering & Construction industry, there is constant pressure to deliver projects more effectively on multiple fronts. This is most notable in the desire to <strong>reduce project cost</strong>, while also consistently <strong>enhancing safety and design quality</strong>. OptiStructure is a <strong>value-added</strong> services provider to and instant payback to its clients and collaborators.
+
+#
+# Core Features Left
+#
+core-features-left:
+
+# Feature
+- name: Design & Consulting Offices
+  description: Own the competitive advantage over competitors, to further improve your designs in terms of safety and economy, and <strong>engage more clients</strong>. You can offer value and reliability to your clients making them better than the competition. 
+  icon: pe-7s-light
+
+# Feature
+- name: Construction Companies
+  description: <strong>Increase your profit</strong> by achieving the desirable level of safety and design quality for the least required construction cost. You can win and secure, profitable, business bids that would otherwise be impossible to win.
+  icon: pe-7s-tools
+
+# Feature
+- name: Investors
+  description: <strong>Maximise profits in a consistent basis</strong> by reducing risk and cost of your investment. 
+  icon: pe-7s-graph1
+
+#
+# Core Features Right
+#
+core-features-right:
+
+# Feature
+- name: Branding
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: projects1.jpeg
+
+# Feature
+- name: Web Design
+  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  icon: projects2.jpeg
+
+
+#####################################
+########### Testimonials ############
+#####################################
+testimonials-title: Advisors
+testimonials-description: 
+
+#
+# Testimonials
+#
+testimonials: 
+
+# Client
+- name: Prof. Nikos D. Lagaros
+  url: https://goo.gl/FVavgE
+  url-text: homepage
+  avatar: lagaros.png
+  cite: Prof. Nikos D. Lagaros, Dean of the School of Civil Engineering at the National Technical University of Athens, Director of the Personal Computers Laboratory, Professor of Structural Engineering. Nikos also served as Visiting Professor at MIT and McGill University. A focus of his consulting work is the assessment of buildings after earthquake events and the development of technical software for structural analysis and design optimization.
+  logo-img: codecanyon.png
+
+# Client
+- name: Dr. Farzad Naeim
+  url: https://goo.gl/L6obde
+  url-text: homepage
+  avatar: farz_naeim.png
+  cite: Dr. Farzad Naeim, Founder and President of Farzad Naeim, Inc. Farzad manages and facilitates activities of teams of experts in R&D activities, special seismic studies, and the design of specialized computer applications for structural engineers. Among others, in the past he served as the Editor in Chief of the Earthquake Spectra Journal of EERI.
+  logo-img: codecanyon.png
+
+# Client
+- name: Prof. Nikolaos V. Sahinidis
+  url: https://engineering.cmu.edu/directory/bios/sahinidis-nikolaos.html
+  url-text: homepage
+  avatar: sahinidis.png
+  cite: Prof. Nikolaos V. Sahinidis, Professor of Chemical Engineering, Director of the Center for Advanced Process Decision-Making, Carnegie Mellon University. His research work is focused on the interface between computer science and operations research. Currently serves as the Editor in Chief of the Optimization and Engineering Journal.
+  logo-img: videohive.png
+
+# Client
+- name: Rob Salafia
+  url: https://protagonistconsulting.com/
+  url-text: homepage
+  avatar: salafia.png
+  cite: Rob Salafia, member of Executive Education coaching cadres for MIT’s Sloan Fellows, AMP and EMBA Programs. Rob combines two decades of experience as a top leadership development executive with a well-established career in the performing arts. Rob is known for creating long-lasting client relationships and supporting executives through transformative learning experiences.
+  logo-img: audiojungle.png
+
+
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: Collaborators
+blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+
+
+#####################################
+############### Team ################
+#####################################
+team-title: Meet Our Team
+team-description: 
+
+#
+# Team Members
+#
+team:
+
+# Team Member
+- name: Dr. Chara Ch. Mitropoulou
+  tagline: MSc and PhD in Structural Engineering from NTUA, MBA from EAP. Active member of the computational earthquake engineering and structural optimization communities. Chara has worked as an analyst + developer in a technical software company and as freelancer engineer on structural retrofitting.
+  avatar: chara2.png
+
+  # Social Links
+  homepage: '#'
+  linkedin: 'https://www.linkedin.com/in/chara-mitropoulou-a6a7093b/'
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Dr. Nikolaos Ath. Kallioras
+  tagline: PhD in Structural Optimization and Machine Learning from NTUA. Focused on engineering optimization, machine learning, reduced order modeling, shape and topology optimization and programming. Nikos has worked as a freelancer engineer on design of residential buildings.
+  avatar: nkalioras.png
+
+  # Social Links
+  homepage: 'https://www.fnaeim.com/attorneys.html'
+  linkedin: 'https://www.linkedin.com/in/nikos-kallioras-3695b27b/'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Dr. Stavros Chatzieleftheriou
+  tagline: MSc in Computational Mechanics and PhD in structural optimization from NTUA. Focused on optimization algorithms, programming, structural health monitoring and performance-based design. Stavros has worked as a freelancer engineer and constructor in design and retrofitting of buildings.
+  avatar: stavros-1.png
+
+  # Social Links
+  homepage: 'https://www.cmu.edu/cheme/people/faculty/nikolaos-v-sahinidis.html'
+  linkedin: 'https://www.linkedin.com/in/stavros-chatzieleftheriou-09b15584/'
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Nikolas Fotilas
+  tagline: BSc in Economics from LSE and MBA from Insead/Wharton MBA. Managing Partner of Gulf Investor Circle Group. Co-founder of Finerd, and InvOrOut. Nikolas sits on various Boards as Executive and Non-Executive Director and is the Trustee of the Insead Alumni Fund.
+  avatar: nikolas.png
+
+  # Social Links
+  homepage: 'https://executive.mit.edu/faculty/profile/363-rob-salafia'
+  linkedin: 'https://www.linkedin.com/in/nfotilas/'
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+pricing-title: Our Vision
+pricing-description: <p>OptiStructure provides integrated optimization services in structural engineering projects and tailor-made software solutions. Our strategic aim is generating added value for our clients via AI optimization solutions. Our goal is to introduce applied optimization to everyday structural engineering practice.</p><p>The Structural Optimization Computing Platform (SOCP), by OptiStructure, integrates AI technology with the leading structural design software for providing applied structural design optimization. Sophisticated in-house developed AI algorithms generate optimal structural designs with respect to client’s reference design. Optimality is assessed based on construction cost, structural performance, etc.</p>
+
+#
+# Plan Personal
+#
+plan-personal-price: $99
+plan-personal-offer-1-title: 01 PSD Pack
+plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-personal-offer-2-title: 100 Support Tickets
+plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-personal-url: '#'
+
+#
+# Plan Business
+#
+plan-business-price: $499
+plan-business-offer-1-title: 05 PSD Pack
+plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-business-offer-2-title: 1000 Support Tickets
+plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-business-url: '#'
+
+#
+# Plan Ultimate
+#
+plan-ultimate-price: $999
+plan-ultimate-offer-1-title: 10 PSD Pack
+plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-ultimate-offer-2-title: Support Unlimited
+plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-ultimate-url: '#'
+
+
+#####################################
+############   Contact   ############
+#####################################
+contact-email: info@optistructure.com
+contact-title: Contact Us
+contact-description:  71-75 Shelton Street<br>London<br>Greater London<br>WC2H 9JQ
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+footer-copyright-text: OptiStructure&trade;
+footer-copyright-url: http://optistructure.com/
+footer-copyright-year: 2020
