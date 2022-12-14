@@ -4187,8 +4187,9 @@ section.parallax-features-section {
 
 
 section.parallax-features-section header.section-header h2, section.parallax-features-section header.section-header h3, section.parallax-features-section header.section-header h4 {
-  /*color: #fff;*/
-  color: #2c3e50222;
+  /* color: #fff; */
+  /* color: #2c3e5022; */
+  color:#202020;
 }
 
 section.parallax-features-section header.section-header hr {
@@ -4478,6 +4479,28 @@ section.testimonials-section .owl-theme .owl-controls .owl-page.active span, sec
 
 /**
  *
+ *  Collaborators Section Style
+ *
+ *  @package gleesik_layout
+ *
+ **/
+
+ 
+/* Apo markos */
+section.collaborators-section {
+  background-image: url(/images/map2.jpg);
+  /* background: black; */
+  /* background-image: url(/images/world_map.jpg); */
+  padding-bottom: 0;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain;
+}
+/* telos */
+
+
+/**
+ *
  *  Blog Section Style
  *
  *  @package gleesik_layout
@@ -4489,7 +4512,7 @@ section.testimonials-section .owl-theme .owl-controls .owl-page.active span, sec
 section.blog-section {
   /* background-image: url(/images/map2.jpg); */
   /* background: black; */
-  background-image: url(/images/world_map.jpg);
+  /* background-image: url(/images/world_map.jpg); */
   padding-bottom: 0;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -4993,6 +5016,191 @@ section.prices-section .pricing-tables-container .pricing-table:hover {
   -webkit-box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.52);
           box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.52);
 }
+
+/**
+ *
+ *  Milestone Section Style
+ *
+ *  @package gleesik_layout
+ *
+ **/
+
+/* Apo markos */
+section.milestone-section dd {
+  text-align: justify;
+}
+
+section.milestone-section dt {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+section.milestone-section ul {
+  list-style: disc;
+  padding-left: 1rem;
+}
+/* telos */
+
+section.milestone-section .milestoning-tables-container {
+  margin-top: 80px;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-tables-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+
+@media (max-width: 991px) and (min-width: 400px) {
+  section.milestone-section .milestoning-tables-container .milestoning-tables-wrapper {
+    display: block;
+  }
+  section.milestone-section .milestoning-tables-container .milestoning-tables-wrapper .milestoning-table {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  section.milestone-section .milestoning-tables-container .milestoning-tables-wrapper {
+    display: block;
+  }
+  section.milestone-section .milestoning-tables-container .milestoning-tables-wrapper .col-md-3 {
+    width: 100% !important;
+    left: 0;
+    margin-bottom: 30px;
+  }
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table {
+  position: relative;
+  border: 1px solid #bdc3c7;
+  text-align: center;
+  background: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table.milestoning-table-focus .plan-head {
+  position: relative;
+  padding-top: 90px;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table.milestoning-table-focus .plan-head:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: -webkit-calc(100% + 2px);
+  width: calc(100% + 2px);
+  height: 4px;
+  top: -1px;
+  left: -1px;
+  background: #21c2f8;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table.milestoning-table-focus .plan-action {
+  padding-bottom: 40px;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-head {
+  padding: 50px 0;
+  font-weight: bold;
+  border-bottom: 1px solid #bdc3c7;
+  overflow: hidden;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-head .offer {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: auto;
+  color: #fff;
+  font-size: 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+  background: #21c2f8;
+  -webkit-transform: rotate(-45deg) translate(-32%, -160%);
+      -ms-transform: rotate(-45deg) translate(-32%, -160%);
+          transform: rotate(-45deg) translate(-32%, -160%);
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-head .plan-title {
+  text-transform: uppercase;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-head hr.normal {
+  width: 60px;
+  height: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-head hr.normal:after {
+  height: 2px;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-head .plan-subtitle {
+  font-size: 0.875rem;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-content {
+  padding: 40px 22px;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-content h4.feature-title {
+  font-weight: bold;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-content h4.feature-title .check {
+  color: #2ecc71;
+  font-size: 1.1em;
+  margin-right: 4px;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-content hr.separator {
+  margin: 20px auto;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-content p.feature-content {
+  font-size: 0.75rem;
+  margin: 20px 0;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table .plan-action {
+  padding: 30px 10px;
+}
+
+section.milestone-section .milestoning-tables-container .milestoning-table:hover {
+  -webkit-box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.52);
+          box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.52);
+}
+
 
 /**
  *
