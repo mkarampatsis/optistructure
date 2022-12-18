@@ -3229,8 +3229,8 @@ header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li.curre
 
 header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li a {
   display: block;
-  /* color: #fff; */
-  color: #2c3e50;
+  color: #fff;
+  /* color: #2c3e50; */
   padding: 10px 0;
 }
 
@@ -4488,7 +4488,7 @@ section.testimonials-section .owl-theme .owl-controls .owl-page.active span, sec
  
 /* Apo markos */
 section.collaborators-section {
-  background-image: url(/images/map2.jpg);
+  background-image: url(/images/map3.jpg);
   /* background: black; */
   /* background-image: url(/images/world_map.jpg); */
   padding-bottom: 0;

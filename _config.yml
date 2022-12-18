@@ -315,7 +315,7 @@ team-description:
 #
 # Team Members
 #
-team:
+team1:
 
 # Team Member
 - name: Dr. Chara Ch. Mitropoulou
@@ -349,7 +349,7 @@ team:
 # Team Member
 - name: Mr. George Kazakis
   tagline: Mr. George Kazakis holds an Integrated Master’s degree in Geotechnical Engineering, MSc degree in Structural Analysis and Antiseismic Research from NTUA and is a PhD candidate at NTUA in the field of design of composite materials using topology optimization. His expertise is focused on engineering optimization, reduced order modeling, shape and topology optimization, optimal material design using topology optimization and concurrent multiscale optimization. In the past George has worked as a freelance civil engineer. George is part of the developing team of the OptiStructure Service and he leads the OptiStructure Service provider team.
-  avatar: george.png
+  avatar: george2.png
 
   # Social Links
   homepage: 'https://www.cmu.edu/cheme/people/faculty/nikolaos-v-sahinidis.html'
@@ -362,28 +362,13 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: Mr. Stoumpos
-  tagline: Mr. Stoumpos holds a Bachelor's degree in Informatics from AUTH, and an MSc in Data Science and Machine Learning from NTUA. His expertise is focused on Software Engineering and Machine Learning. Manos is part of the developing team of the OptiStructure Service.
-  avatar: 
-
-  # Social Links
-  homepage: 'https://executive.mit.edu/faculty/profile/363-rob-salafia'
-  linkedin: 'https://www.linkedin.com/in/xx/'
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-# Team Member
 - name: Mr. Spyridon Chandrinos
   tagline: Mr. Spyridon Chandrinos holds an Integrated Master’s degree in Civil Engineering from NTUA and a MSc in Computational Finance from Carnegie Mellon University. Currently, Spyros is a Ph.D. candidate at NTUA working on advanced technologies for decision making systems in engineering. His expertise is focused on quantitative finance, machine learning and engineering optimization. In the past, Spyros has worked as a trader in hedge funds and as engineer consultant in residential projects. Spyridon is part of the OptiStructure Service provider team.
-  avatar: 
-
+  avatar: chandrinos1.jpg
+  
   # Social Links
   homepage: 'https://executive.mit.edu/faculty/profile/363-rob-salafia'
-  linkedin: 'https://www.linkedin.com/in/xx/'
+  linkedin: '#'
   youtube: '#'
   pinterest: '#'
   facebook: '#'
@@ -391,14 +376,15 @@ team:
   google-plus: '#'
   vimeo: '#'
 
+team2:
   # Team Member
 - name: Mr. Dimitrios Gonidakis
   tagline: Mr. Dimitrios Gonidakis holds an integrated Master’s degree in Architecture and a Master of Science degree in Computational Mechanics of Solids from the National Technical University of Athens (NTUA). Currently, he is a Ph.D. candidate at the Department of Structural Engineering, at NTUA’s School of Civil Engineering. His research focuses on combining structural topology optimization with daylight analysis targeted to additive manufacturing. The major goal is to achieve a sustainable way of designing and constructing through innovative tools, methods, and strategies. Dimitrios works as a freelancer architect focusing on the architectural design of public, hotel, and residential buildings. Dimitrios is part of the developing team of the OptiStructure Service.
-  avatar: 
+  avatar: gonidakis1.jpg
 
   # Social Links
   homepage: 'https://executive.mit.edu/faculty/profile/363-rob-salafia'
-  linkedin: 'https://www.linkedin.com/in/xx/'
+  linkedin: '#'
   youtube: '#'
   pinterest: '#'
   facebook: '#'
@@ -409,11 +395,26 @@ team:
   # Team Member
 - name: Mr. Stefanos Voulgaris
   tagline: Mr. Stefanos Voulgaris holds an Integrated Master’s degree in Civil Engineering from NTUA. Stefanos is a PhD candidate at NTUA, his studies are focused on structural topology optimization, algorithm development using finite elements, the technology of 3D printing and how it can be applied to manufacture the optimized results. In the past Stefanos has worked as a civil engineer focusing on structural and architectural design of residential and industrial buildings. Stefanos is part of the developing and service provider teams of the OptiStructure Service.
-  avatar: 
+  avatar: stvoulgaris1.png
 
   # Social Links
   homepage: 'https://executive.mit.edu/faculty/profile/363-rob-salafia'
-  linkedin: 'https://www.linkedin.com/in/xx/'
+  linkedin: '#'
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
+
+# Team Member
+- name: Mr. Stoumpos
+  tagline: Mr. Stoumpos holds a Bachelor's degree in Informatics from AUTH, and an MSc in Data Science and Machine Learning from NTUA. His expertise is focused on Software Engineering and Machine Learning. Manos is part of the developing team of the OptiStructure Service.
+  avatar: stoumpos1.jpg
+
+  # Social Links
+  homepage: 'https://executive.mit.edu/faculty/profile/363-rob-salafia'
+  linkedin: '#'
   youtube: '#'
   pinterest: '#'
   facebook: '#'
