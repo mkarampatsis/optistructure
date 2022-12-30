@@ -1,0 +1,11 @@
+---
+layout: post
+title: "March 2021"
+tagline: Single Page
+date: 2021-03-01 10:43
+categories: [Optistructure]
+tags: [blog, optistructure]
+image: nbg.png
+---
+
+Winner of the <a href="https://www.nbg.gr/en/business/business-seeds/winners" target="_blank">11th seeds Innovation & Technology Competition</a> of the National Bank of Greece.
