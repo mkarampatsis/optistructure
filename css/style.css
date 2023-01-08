@@ -5120,6 +5120,14 @@ section.milestone-section section.tab-panel ul li {
 #tab8:checked ~ section.year-2021 {
   display: block;
 }
+
+#tab9:checked ~ .labels .label-2022 {
+  font-weight: bold;
+}
+
+#tab9:checked ~ section.year-2022 {
+  display: block;
+}
 /* telos */
 
 section.milestone-section .milestoning-tables-container {

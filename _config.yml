@@ -225,19 +225,24 @@ core-description: Within the Architectural, Engineering & Construction industry,
 core-features-left:
 
 # Feature
-- name: Design & Consulting Offices
-  description: Own the competitive advantage over competitors, to further improve your designs in terms of safety and economy, and <strong>engage more clients</strong>. You can offer value and reliability to your clients making them better than the competition. 
+- name: Design Consultants
+  description: own the <strong>competitive advantage</strong> over competitors, further improve your designs in terms of safety and sustainability. Support the circular economy by promoting sustainable development 
   icon: pe-7s-light
 
 # Feature
-- name: Construction Companies
-  description: <strong>Increase your profit</strong> by achieving the desirable level of safety and design quality for the least required construction cost. You can win and secure, profitable, business bids that would otherwise be impossible to win.
+- name: Design and Build Contractors
+  description: <strong>increase your profit</strong> by achieving the desirable level of safety and design quality for the least required construction cost. During tendering, Optistructure can help you secure projects by optimising material usage and offer a competitive bid.
   icon: pe-7s-tools
 
 # Feature
-- name: Investors
-  description: <strong>Maximise profits in a consistent basis</strong> by reducing risk and cost of your investment. 
+- name: Owners & Investors
+  description: <strong>built more for less</strong> and reduce the risk of your investment. Help achieve your target emission goals by building sustainably 
   icon: pe-7s-graph1
+
+- name: Public Authorities
+  description: <strong>increase eco friendliness</strong> of public structures.
+  icon: pe-7s-global
+
 
 #
 # Core Features Right
@@ -298,6 +303,13 @@ testimonials:
   cite: Rob Salafia, member of Executive Education coaching cadres for MIT’s Sloan Fellows, AMP and EMBA Programs. Rob combines two decades of experience as a top leadership development executive with a well-established career in the performing arts. Rob is known for creating long-lasting client relationships and supporting executives through transformative learning experiences.
   logo-img: audiojungle.png
 
+# Client
+- name: Amjad Almkhalalati
+  url: 
+  url-text: homepage
+  avatar: salafia.png
+  cite: Amjad Almkhalalati holds a MEng degree in Civil Engineering from the City University of London. Amjad is Chartered Engineer (CEng) and Fellow of the Institution of Civil Engineers (FICE), multi-disciplinary director integrating management with highly technical, commercial, and financial skills in major international infrastructure projects including innovative technologies such as hyperloop. Amjad is co-founder of Infersence and leads the business development and commercial departments.
+  logo-img: audiojungle.png
 
 #####################################
 ############# Our Blog ##############
@@ -319,7 +331,7 @@ team1:
 
 # Team Member
 - name: Dr. Chara Ch. Mitropoulou
-  tagline: Dr. Chara Ch. Mitropoulou holds an Integrated Master’s degree in Civil Engineering, MSc and PhD degrees in Structural 'Engineering from NTUA and an MBA degree from EAP. Visiting Researcher at University of Cyprus and Cairo University. Active member of the computational earthquake engineering and structural optimization communities. Her expertise is focused on performance-based earthquake engineering and structural design optimization. In the past Chara has worked as an analyst and developer in a technical software company and as freelancer civil engineer focusing on structural retrofitting. Chara is the CEO and co-founder of Infersence.
+  tagline: Chara Ch. Mitropoulou holds an Integrated Master’s degree in Civil Engineering, MSc and PhD degrees in Structural 'Engineering from NTUA and an MBA degree from EAP. In the past Chara has worked as an analyst and developer in a technical software company and as freelancer structural engineer. Chara is the CEO and co-founder of Infersence.
   avatar: chara2.png
 
   # Social Links
@@ -334,7 +346,7 @@ team1:
 
 # Team Member
 - name: Dr. Nikolaos Ath. Kallioras
-  tagline: Dr. Nikolaos Ath. Kallioras holds an Integrated Master’s degree in Civil Engineering, MSc and PhD degrees in Data Science and Machine Learning from NTUA. His expertise is focused on engineering optimization, machine learning, reduced order modeling, shape and topology structural optimization and GPGPU programming. In the past Nikos has worked as a freelancer civil engineer focusing on structural and architectural design of residential buildings. Nikolaos is the CTO and co-founder of Infersence and leads the developing team of the OptiStructure.
+  tagline: Nikolaos Ath. Kallioras holds an Integrated Master’s degree in Civil Engineering, MSc and PhD degrees in Data Science and Machine Learning from NTUA. In the past Nikos has worked as a freelancer civil engineer focusing on the design of residential buildings. Nikolaos is the CTO and co-founder of Infersence and leads the developing team of the OptiStructure.
   avatar: nkalioras.png
 
   # Social Links
@@ -347,8 +359,8 @@ team1:
   vimeo: '#'
 
 # Team Member
-- name: Mr. George Kazakis
-  tagline: Mr. George Kazakis holds an Integrated Master’s degree in Geotechnical Engineering, MSc degree in Structural Analysis and Antiseismic Research from NTUA and is a PhD candidate at NTUA in the field of design of composite materials using topology optimization. His expertise is focused on engineering optimization, reduced order modeling, shape and topology optimization, optimal material design using topology optimization and concurrent multiscale optimization. In the past George has worked as a freelance civil engineer. George is part of the developing team of the OptiStructure Service and he leads the OptiStructure Service provider team.
+- name: Dr. George Kazakis
+  tagline: George Kazakis holds an Integrated Master’s degree in Geotechnical Engineering, MSc degree and PhD degrees in composite materials’ design  using topology optimization from NTUA. In the past George has worked as a freelance civil engineer. George is part of the developing team of the OptiStructure Service and he leads the OptiStructure Service provider team.
   avatar: george2.png
 
   # Social Links
@@ -363,7 +375,7 @@ team1:
 
 # Team Member
 - name: Mr. Spyridon Chandrinos
-  tagline: Mr. Spyridon Chandrinos holds an Integrated Master’s degree in Civil Engineering from NTUA and a MSc in Computational Finance from Carnegie Mellon University. Currently, Spyros is a Ph.D. candidate at NTUA working on advanced technologies for decision making systems in engineering. His expertise is focused on quantitative finance, machine learning and engineering optimization. In the past, Spyros has worked as a trader in hedge funds and as engineer consultant in residential projects. Spyridon is part of the OptiStructure Service provider team.
+  tagline: Mr. Spyridon Chandrinos holds an Integrated Master’s degree in Civil Engineering from NTUA and a MSc degree in Computational Finance from Carnegie Mellon University. In the past, Spyridon has worked as a trader in hedge funds and as engineer consultant in residential projects. Spyridon is part of the OptiStructure Service provider team.
   avatar: chandrinos1.jpg
   
   # Social Links
@@ -379,7 +391,7 @@ team1:
 team2:
   # Team Member
 - name: Mr. Dimitrios Gonidakis
-  tagline: Mr. Dimitrios Gonidakis holds an integrated Master’s degree in Architecture and a Master of Science degree in Computational Mechanics of Solids from the National Technical University of Athens (NTUA). Currently, he is a Ph.D. candidate at the Department of Structural Engineering, at NTUA’s School of Civil Engineering. His research focuses on combining structural topology optimization with daylight analysis targeted to additive manufacturing. The major goal is to achieve a sustainable way of designing and constructing through innovative tools, methods, and strategies. Dimitrios works as a freelancer architect focusing on the architectural design of public, hotel, and residential buildings. Dimitrios is part of the developing team of the OptiStructure Service.
+  tagline: Mr. Dimitrios Gonidakis holds an integrated Master’s degree in Architectural Engineering and MSc degree in Computational Mechanics from NTUA. Dimitrios worked as a freelancer architect focusing on the architectural design of public, hotel, and residential buildings. Dimitrios is part of the developing team of the OptiStructure Service.
   avatar: gonidakis1.jpg
 
   # Social Links
@@ -394,7 +406,7 @@ team2:
 
   # Team Member
 - name: Mr. Stefanos Voulgaris
-  tagline: Mr. Stefanos Voulgaris holds an Integrated Master’s degree in Civil Engineering from NTUA. Stefanos is a PhD candidate at NTUA, his studies are focused on structural topology optimization, algorithm development using finite elements, the technology of 3D printing and how it can be applied to manufacture the optimized results. In the past Stefanos has worked as a civil engineer focusing on structural and architectural design of residential and industrial buildings. Stefanos is part of the developing and service provider teams of the OptiStructure Service.
+  tagline: Mr. Stefanos Voulgaris holds an Integrated Master’s degree in Civil Engineering from NTUA. Stefanos. In the past Stefanos has worked as a civil engineer focusing on the design of residential and industrial buildings. Stefanos is part of the developing and service provider teams of the OptiStructure Service.
   avatar: stvoulgaris1.png
 
   # Social Links
@@ -426,7 +438,7 @@ team2:
 ########## Pricing Tables ###########
 #####################################
 pricing-title: Our Vision
-pricing-description: <p>Our vision is to serve the UN SDG 11. Make cities and human settlements inclusive, safe, resilient and sustainable.</p><p>We provide integrated optimization services in structural engineering projects and tailor-made software solutions. Our strategic aim is generating added value for our clients via AI optimization solutions. Our goal is to introduce applied optimization to everyday structural engineering practice.</p><p>Our Structural Optimization Computing Platform (SOCP) integrates AI technology with the leading structural design software for providing applied structural design optimization. Sophisticated in-house developed AI algorithms generate optimal structural designs with respect to client’s reference design. Optimality is assessed based on the structure's ecological footprint, construction cost, structural performance, etc.</p>
+pricing-description: <p>Our vision is to serve the <a href="https://sdgs.un.org/goals/goal11" target="_blank">UN SDG 11</a>. Make cities and human settlements inclusive, safe, resilient and sustainable.</p><p>We provide integrated optimization services in structural engineering projects and tailor-made software solutions. Our strategic aim is generating added value for our clients via AI optimization solutions. Our goal is to introduce applied optimization to everyday structural engineering practice.</p><p>Our Structural Optimization Computing Platform (SOCP) integrates AI technology with the leading structural design software for providing applied structural design optimization. Sophisticated in-house developed AI algorithms generate optimal structural designs with respect to client’s reference design. Optimality is assessed based on the structure's ecological footprint, construction cost, structural performance, etc.</p>
  
 
 #
