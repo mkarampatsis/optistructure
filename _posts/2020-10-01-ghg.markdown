@@ -5,7 +5,7 @@ tagline: Single Page
 date: 2020-10-01 13:23
 categories: [Optistructure]
 tags: [blog, optistructure]
-image: ghg.png
+image: ghg1.png
 ---
 
 First paid project. A multistorey building, where the optimized model resulted in 7.5% of GHG emissions and construction cost reduction

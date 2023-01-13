@@ -3229,8 +3229,8 @@ header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li.curre
 
 header.site-header .site-navigation-bar .navigation-bar nav.nav-menu ul li a {
   display: block;
-  color: #fff;
-  /* color: #2c3e50; */
+  /* color: #fff; */
+  color: #2c3e50;
   padding: 10px 0;
 }
 
@@ -3244,9 +3244,9 @@ header.site-header .header-banner {
   max-height: -webkit-calc(1080px - 250px);
   max-height: calc(1080px - 250px);
   z-index: 2;
-  color: #fff;
+  /* color: #fff; */
   /* Apo marko */
-  /* color: #2c3e50; */
+  color: #2c3e50;
 }
 
 header.site-header .header-banner .heading-content {
@@ -3285,7 +3285,8 @@ header.site-header .arrow-down-section .arrow-down {
   position: relative;
   font-size: 4rem;
   line-height: 4rem;
-  color: #fff;
+  /* color: #fff; */
+  color: #2c3e50;
   width: 64px;
   height: 64px;
 }
@@ -4495,6 +4496,7 @@ section.collaborators-section {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain;
+  height: 500px;
 }
 /* telos */
 

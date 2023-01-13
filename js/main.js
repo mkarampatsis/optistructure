@@ -183,6 +183,18 @@
         singleItem: true
 
     });
+
+    /**
+     *  Testimonials Carousel Setup
+     **/
+    $("#teams-carousel").owlCarousel({
+
+      navigation : true, // Show next & prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem: true
+
+  });
     
     /**
      *  Header Carousel
