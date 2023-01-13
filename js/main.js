@@ -194,7 +194,7 @@
       paginationSpeed : 400,
       singleItem: true
 
-  });
+    });
     
     /**
      *  Header Carousel

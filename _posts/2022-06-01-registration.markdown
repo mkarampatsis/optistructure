@@ -3,7 +3,7 @@ layout: post
 title:  "June 2022"
 tagline: Single Page
 date: 2022-06-01 15:32
-categories: [optistructure]
+categories: [Optistructure]
 tags: [blog, optistructure]
 image: optistructure-logo.png
 ---
