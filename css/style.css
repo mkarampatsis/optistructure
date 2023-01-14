@@ -4496,7 +4496,7 @@ section.collaborators-section {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain;
-  height: 500px;
+  height: 700px;
 }
 /* telos */
 
@@ -4830,11 +4830,14 @@ section.team-section .team-members-container .team-member .team-member-content .
 }
 
 section.team-section .team-members-container .team-member .team-member-content .social-icons .icons li a {
-  color: #5e5e5e;
+  /* color: #5e5e5e; */
+  color: #21c2f8;
+  text-decoration: none;
+  font-size: 0.875rem;
 }
 
 section.team-section .team-members-container .team-member .team-member-content .social-icons .icons li a:hover, section.team-section .team-members-container .team-member .team-member-content .social-icons .icons li a:active {
-  color: #21c2f8;
+  color: #21c2f2;
 }
 
 section.team-section .team-members-container .team-member:hover {

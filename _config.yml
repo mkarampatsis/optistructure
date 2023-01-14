@@ -260,10 +260,17 @@ core-features-right:
   icon: projects2.jpeg
 
 
+######################################
+############# Our Blog ##############
 #####################################
-########### Testimonials ############
+blog-title: Blog
+blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+
+
 #####################################
-testimonials-title: Advisors
+############### Testimonials ########
+#####################################
+testimonials-title: Meet Our Team
 testimonials-description: 
 
 #
@@ -272,223 +279,120 @@ testimonials-description:
 testimonials: 
 
 # Client
-- name: Prof. Nikos D. Lagaros
-  url: https://goo.gl/FVavgE
-  url-text: homepage
-  avatar: lagaros.png
-  cite: Prof. Nikos D. Lagaros, Dean of the School of Civil Engineering at the National Technical University of Athens, Director of the Personal Computers Laboratory, Professor of Structural Engineering. Nikos also served as Visiting Professor at MIT and McGill University. A focus of his consulting work is the assessment of buildings after earthquake events and the development of technical software for structural analysis and design optimization.
-  logo-img: codecanyon.png
-
-# Client
-- name: Dr. Farzad Naeim
-  url: https://goo.gl/L6obde
-  url-text: homepage
-  avatar: farz_naeim.png
-  cite: Dr. Farzad Naeim, Founder and President of Farzad Naeim, Inc. Farzad manages and facilitates activities of teams of experts in R&D activities, special seismic studies, and the design of specialized computer applications for structural engineers. Among others, in the past he served as the Editor in Chief of the Earthquake Spectra Journal of EERI.
-  logo-img: codecanyon.png
-
-# Client
-- name: Prof. Nikolaos V. Sahinidis
-  url: https://engineering.cmu.edu/directory/bios/sahinidis-nikolaos.html
-  url-text: homepage
-  avatar: sahinidis.png
-  cite: Prof. Nikolaos V. Sahinidis, Professor of Chemical Engineering, Director of the Center for Advanced Process Decision-Making, Carnegie Mellon University. His research work is focused on the interface between computer science and operations research. Currently serves as the Editor in Chief of the Optimization and Engineering Journal.
-  logo-img: videohive.png
-
-# Client
-- name: Rob Salafia
-  url: https://protagonistconsulting.com/
-  url-text: homepage
-  avatar: salafia.png
-  cite: Rob Salafia, member of Executive Education coaching cadres for MIT’s Sloan Fellows, AMP and EMBA Programs. Rob combines two decades of experience as a top leadership development executive with a well-established career in the performing arts. Rob is known for creating long-lasting client relationships and supporting executives through transformative learning experiences.
-  logo-img: audiojungle.png
-
-# Client
-- name: Amjad Almkhalalati
-  url: https://ae.linkedin.com/in/amjad-almkhalalati-42a41629
-  url-text: homepage
-  avatar: amjad1.jpg
-  cite: Amjad Almkhalalati holds a MEng degree in Civil Engineering from the City University of London. Amjad is Chartered Engineer (CEng) and Fellow of the Institution of Civil Engineers (FICE), multi-disciplinary director integrating management with highly technical, commercial, and financial skills in major international infrastructure projects including innovative technologies such as hyperloop. Amjad is co-founder of Infersence and leads the business development and commercial departments.
-  logo-img: audiojungle.png
-
-#####################################
-############# Our Blog ##############
-#####################################
-blog-title: Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-
-#####################################
-############### Team ################
-#####################################
-team-title: Meet Our Team
-team-description: 
-
-
-#
-# Testimonials
-#
-team: 
-
-# Client
-- name: Dr. Chara Ch. Mitropoulou
+- name: Chara Ch. Mitropoulou
   url: https://www.linkedin.com/in/chara-mitropoulou-a6a7093b/
   url-text: homepage
   avatar: chara2.png
-  cite: Chara Ch. Mitropoulou holds an Integrated Master’s degree in Civil Engineering, MSc and PhD degrees in Structural 'Engineering from NTUA and an MBA degree from EAP. In the past Chara has worked as an analyst and developer in a technical software company and as freelancer structural engineer. Chara is the CEO and co-founder of Infersence.
+  cite: Chara holds an Integrated Master’s degree in Civil Engineering, MSc and PhD degrees in Structural 'Engineering from NTUA and an MBA degree from EAP. In the past Chara has worked as an analyst and developer in a technical software company and as freelancer structural engineer. Chara is the CEO and co-founder of Infersence.
   logo-img: codecanyon.png
 
-- name: Dr. Nikolaos Ath. Kallioras
+- name: Nikos Kallioras
   url: https://www.linkedin.com/in/nikos-kallioras-3695b27b/
   url-text: homepage
   avatar: nkalioras.png
-  cite: Nikolaos Ath. Kallioras holds an Integrated Master’s degree in Civil Engineering, MSc and PhD degrees in Data Science and Machine Learning from NTUA. In the past Nikos has worked as a freelancer civil engineer focusing on the design of residential buildings. Nikolaos is the CTO and co-founder of Infersence and leads the developing team of the OptiStructure.
+  cite: Nikos holds an Integrated Master’s degree in Civil Engineering and a PhD degree in Applied Machine Learning from NTUA. In the past Nikos has worked as a freelancer civil engineer focusing on the design of residential buildings. Nikolaos is the CTO and co-founder of Infersence and leads the developing team of the OptiStructure.
   logo-img: codecanyon.png
 
-- name: Dr. George Kazakis
+- name: George Kazakis
   url: https://www.linkedin.com/in/stavros-chatzieleftheriou-09b15584/
   url-text: homepage
   avatar: george2.png
-  cite: George Kazakis holds an Integrated Master’s degree in Geotechnical Engineering, MSc degree and PhD degrees in composite materials’ design  using topology optimization from NTUA. In the past George has worked as a freelance civil engineer. George is part of the developing team of the OptiStructure Service and he leads the OptiStructure Service provider team.
+  cite: George holds an Integrated Master’s degree in Geotechnical Engineering, MSc degree and PhD degrees in composite materials’ design  using topology optimization from NTUA. In the past George has worked as a freelance civil engineer. George is part of the developing team of the OptiStructure Service and he leads the OptiStructure Service provider team.
   logo-img: codecanyon.png
   
-- name: Mr. Spyridon Chandrinos
+- name: Spyridon Chandrinos
   url: 
   url-text: homepage
   avatar: chandrinos1.jpg
-  cite: Mr. Spyridon Chandrinos holds an Integrated Master’s degree in Civil Engineering from NTUA and a MSc degree in Computational Finance from Carnegie Mellon University. In the past, Spyridon has worked as a trader in hedge funds and as engineer consultant in residential projects. Spyridon is part of the OptiStructure Service provider team.
+  cite: Spyros holds an Integrated Master’s degree in Civil Engineering from NTUA and a MSc degree in Computational Finance from Carnegie Mellon University. In the past, Spyridon has worked as a trader in hedge funds and as engineer consultant in residential projects. Spyridon is part of the OptiStructure Service provider team.
   logo-img: codecanyon.png    
 
-- name: Mr. Dimitrios Gonidakis
+- name: Dimitrios Gonidakis
   url: 
   url-text: homepage
   avatar: gonidakis1.jpg
-  cite: Mr. Dimitrios Gonidakis holds an integrated Master’s degree in Architectural Engineering and MSc degree in Computational Mechanics from NTUA. Dimitrios worked as a freelancer architect focusing on the architectural design of public, hotel, and residential buildings. Dimitrios is part of the developing team of the OptiStructure Service.
+  cite: Dimitrios holds an integrated Master’s degree in Architectural Engineering and MSc degree in Computational Mechanics from NTUA. Dimitrios worked as a freelancer architect focusing on the architectural design of public, hotel, and residential buildings. Dimitrios is part of the developing team of the OptiStructure Service.
   logo-img: codecanyon.png
 
-- name: Mr. Stefanos Voulgaris
+- name: Stefanos Voulgaris
   url: 
   url-text: homepage
   avatar: stvoulgaris1.png
-  cite: Mr. Stefanos Voulgaris holds an Integrated Master’s degree in Civil Engineering from NTUA. Stefanos. In the past Stefanos has worked as a civil engineer focusing on the design of residential and industrial buildings. Stefanos is part of the developing and service provider teams of the OptiStructure Service.
+  cite: Stefanos holds an Integrated Master’s degree in Civil Engineering from NTUA. Stefanos. In the past Stefanos has worked as a civil engineer focusing on the design of residential and industrial buildings. Stefanos is part of the developing and service provider teams of the OptiStructure Service.
   logo-img: codecanyon.png
 
-- name: Mr. Stoumpos
+- name: Manos Stoumpos
   url: 
   url-text: homepage
   avatar: stoumpos1.jpg
-  cite: Mr. Stoumpos holds a Bachelor's degree in Informatics from AUTH, and an MSc in Data Science and Machine Learning from NTUA. His expertise is focused on Software Engineering and Machine Learning. Manos is part of the developing team of the OptiStructure Service.
+  cite: Manos holds a Bachelor's degree in Informatics from AUTH, and an MSc in Data Science and Machine Learning from NTUA. His expertise is focused on Software Engineering and Machine Learning. Manos is part of the developing team of the OptiStructure Service.
   logo-img: codecanyon.png
 
-#
-# Team Members
-#
-#team1:
+#####################################
+############# Team ##################
+#####################################
+team-title: Advisors
+team-description: 
 
-# # Team Member
-# - name: Dr. Chara Ch. Mitropoulou
-#   tagline: Chara Ch. Mitropoulou holds an Integrated Master’s degree in Civil Engineering, MSc and PhD degrees in Structural 'Engineering from NTUA and an MBA degree from EAP. In the past Chara has worked as an analyst and developer in a technical software company and as freelancer structural engineer. Chara is the CEO and co-founder of Infersence.
-#   avatar: chara2.png
+team:
+# Team Member
+- name: Prof. Nikos D. Lagaros
+  tagline: Prof. Nikos D. Lagaros, Dean of the School of Civil Engineering at the National Technical University of Athens, Director of the Personal Computers Laboratory, Professor of Structural Engineering. Nikos also served as Visiting Professor at MIT and McGill University. A focus of his consulting work is the assessment of buildings after earthquake events and the development of technical software for structural analysis and design optimization.
+  avatar: lagaros.png
 
-#   # Social Links
-#   homepage: '#'
-#   linkedin: 'https://www.linkedin.com/in/chara-mitropoulou-a6a7093b/'
-#   youtube: '#'
-#   pinterest: '#'
-#   facebook: '#'
-#   twitter: '#'
-#   google-plus: '#'
-#   vimeo: '#'
+  # Social Links
+  homepage: 'http://users.ntua.gr/nlagaros/'
+  linkedin: '#'
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
 
-# # Team Member
-# - name: Dr. Nikolaos Ath. Kallioras
-#   tagline: Nikolaos Ath. Kallioras holds an Integrated Master’s degree in Civil Engineering, MSc and PhD degrees in Data Science and Machine Learning from NTUA. In the past Nikos has worked as a freelancer civil engineer focusing on the design of residential buildings. Nikolaos is the CTO and co-founder of Infersence and leads the developing team of the OptiStructure.
-#   avatar: nkalioras.png
+# Team Member
+- name: Dr. Farzad Naeim
+  tagline: Dr. Farzad Naeim, Founder and President of Farzad Naeim, Inc. Farzad manages and facilitates activities of teams of experts in R&D activities, special seismic studies, and the design of specialized computer applications for structural engineers. Among others, in the past he served as the Editor in Chief of the Earthquake Spectra Journal of EERI.
+  avatar: farz_naeim.png
 
-#   # Social Links
-#   homepage: 'https://www.fnaeim.com/attorneys.html'
-#   linkedin: 'https://www.linkedin.com/in/nikos-kallioras-3695b27b/'
-#   pinterest: '#'
-#   facebook: '#'
-#   twitter: '#'
-#   google-plus: '#'
-#   vimeo: '#'
+  # Social Links
+  homepage: 'https://www.fnaeim.com/attorneys.html'
+  linkedin: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
 
-# # Team Member
-# - name: Dr. George Kazakis
-#   tagline: George Kazakis holds an Integrated Master’s degree in Geotechnical Engineering, MSc degree and PhD degrees in composite materials’ design  using topology optimization from NTUA. In the past George has worked as a freelance civil engineer. George is part of the developing team of the OptiStructure Service and he leads the OptiStructure Service provider team.
-#   avatar: george2.png
+# Team Member
+- name: Prof. Nikolaos V. Sahinidis
+  tagline: Prof. Nikolaos V. Sahinidis, Professor of Chemical Engineering, Director of the Center for Advanced Process Decision-Making, Carnegie Mellon University. His research work is focused on the interface between computer science and operations research. Currently serves as the Editor in Chief of the Optimization and Engineering Journal.
+  avatar: sahinidis.png
 
-#   # Social Links
-#   homepage: 'https://www.cmu.edu/cheme/people/faculty/nikolaos-v-sahinidis.html'
-#   linkedin: 'https://www.linkedin.com/in/stavros-chatzieleftheriou-09b15584/'
-#   youtube: '#'
-#   pinterest: '#'
-#   facebook: '#'
-#   twitter: '#'
-#   google-plus: '#'
-#   vimeo: '#'
+  # Social Links
+  homepage: 'https://engineering.cmu.edu/directory/bios/sahinidis-nikolaos.html'
+  linkedin: '#'
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
 
-# # Team Member
-# - name: Mr. Spyridon Chandrinos
-#   tagline: Mr. Spyridon Chandrinos holds an Integrated Master’s degree in Civil Engineering from NTUA and a MSc degree in Computational Finance from Carnegie Mellon University. In the past, Spyridon has worked as a trader in hedge funds and as engineer consultant in residential projects. Spyridon is part of the OptiStructure Service provider team.
-#   avatar: chandrinos1.jpg
+# Team Member
+- name: Amjad Almkhalalati
+  tagline: Amjad Almkhalalati holds a MEng degree in Civil Engineering from the City University of London. Amjad is Chartered Engineer (CEng) and Fellow of the Institution of Civil Engineers (FICE), multi-disciplinary director integrating management with highly technical, commercial, and financial skills in major international infrastructure projects including innovative technologies such as hyperloop. Amjad is co-founder of Infersence and leads the business development and commercial departments.
+  avatar: amjad1.jpg
   
-#   # Social Links
-#   homepage: 'https://executive.mit.edu/faculty/profile/363-rob-salafia'
-#   linkedin: '#'
-#   youtube: '#'
-#   pinterest: '#'
-#   facebook: '#'
-#   twitter: '#'
-#   google-plus: '#'
-#   vimeo: '#'
-
-# team2:
-#   # Team Member
-# - name: Mr. Dimitrios Gonidakis
-#   tagline: Mr. Dimitrios Gonidakis holds an integrated Master’s degree in Architectural Engineering and MSc degree in Computational Mechanics from NTUA. Dimitrios worked as a freelancer architect focusing on the architectural design of public, hotel, and residential buildings. Dimitrios is part of the developing team of the OptiStructure Service.
-#   avatar: gonidakis1.jpg
-
-#   # Social Links
-#   homepage: 'https://executive.mit.edu/faculty/profile/363-rob-salafia'
-#   linkedin: '#'
-#   youtube: '#'
-#   pinterest: '#'
-#   facebook: '#'
-#   twitter: '#'
-#   google-plus: '#'
-#   vimeo: '#'
-
-#   # Team Member
-# - name: Mr. Stefanos Voulgaris
-#   tagline: Mr. Stefanos Voulgaris holds an Integrated Master’s degree in Civil Engineering from NTUA. Stefanos. In the past Stefanos has worked as a civil engineer focusing on the design of residential and industrial buildings. Stefanos is part of the developing and service provider teams of the OptiStructure Service.
-#   avatar: stvoulgaris1.png
-
-#   # Social Links
-#   homepage: 'https://executive.mit.edu/faculty/profile/363-rob-salafia'
-#   linkedin: '#'
-#   youtube: '#'
-#   pinterest: '#'
-#   facebook: '#'
-#   twitter: '#'
-#   google-plus: '#'
-#   vimeo: '#'
-
-# # Team Member
-# - name: Mr. Stoumpos
-#   tagline: Mr. Stoumpos holds a Bachelor's degree in Informatics from AUTH, and an MSc in Data Science and Machine Learning from NTUA. His expertise is focused on Software Engineering and Machine Learning. Manos is part of the developing team of the OptiStructure Service.
-#   avatar: stoumpos1.jpg
-
-#   # Social Links
-#   homepage: 'https://executive.mit.edu/faculty/profile/363-rob-salafia'
-#   linkedin: '#'
-#   youtube: '#'
-#   pinterest: '#'
-#   facebook: '#'
-#   twitter: '#'
-#   google-plus: '#'
-#   vimeo: '#'
+  # Social Links
+  homepage: 'https://ae.linkedin.com/in/amjad-almkhalalati-42a41629'
+  linkedin: '#'
+  youtube: '#'
+  pinterest: '#'
+  facebook: '#'
+  twitter: '#'
+  google-plus: '#'
+  vimeo: '#'
 
 #####################################
 ########## Pricing Tables ###########

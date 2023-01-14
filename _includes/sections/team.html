@@ -1,5 +1,5 @@
-<!-- Testimonials Section -->
-<section class="site-section section-focus testimonials-section" id="team">
+<!-- Team Section -->
+<section class="site-section section-focus team-section" id="team">
   <div class="container">
 
     <!-- Section Heading -->
@@ -13,47 +13,76 @@
 
       <!-- Section Content -->
       <!-- <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.testimonials-description }}</p>
+        <p>{{ site.team-description }}</p>
       </div> -->
 
     </div>
 
-    <!-- Clients -->
-    <div class="row clients">
+    <!-- Team Members -->
+    <div class="row team-members-container">
 
-      <!-- Testimonials Carousel -->
-      <div id="teams-carousel" class="col-md-8 col-md-push-2">
+      {% for member in site.team %}
 
-        {% for client in site.team %}
-
-        <!-- Client Testimonial -->
-        <div class="client-testimonial text-center">
-          <!-- Testimonials Face -->
-          <div class="testimonial-face">
-
-            <div class="face">
-              <img src="{{ site.baseurl }}/images/team/{{ client.avatar }}" alt="{{client.name}}" />
-            </div>
-
-            <div class="info">
-              <h3 class="name">{{ client.name }}</h3>
-              <a class="link" target="_blank" href="{{ client.url }}">{{ client.url-text }}</a>
-            </div>
-
+      <!-- Member -->
+      <div class="col-md-3 col-md-push-0 col-sm-6 col-sm-push-0 col-xs-6 col-xs-push-0">
+        <div class="team-member">
+          <!-- <div class="img-wrapper"> -->
+          <div>  
+            <img src="{{ site.baseurl }}/images/advisors/{{ member.avatar }}" alt="{{member.name}}" />
           </div>
-
-          <!-- Testimonials Quote -->
-          <div class="testimonial-quote">
-            <p class="quote">{{ client.cite }}</p>
-            <!-- <div class="logo">
-              <img src="{{ site.baseurl }}/images/logos/{{ client.logo-img }}" alt="{{ client.url-text }} Logo" />
-            </div> -->
+          <div class="team-member-content">
+            <h3 class="name">{{ member.name }}</h3>
+            <h4 class="tagline">{{ member.tagline }}</h4>
+            <div class="social-icons">
+              <ul class="icons">
+                <li><a href="{{ member.homepage }}" target="_blank">homepage</a></li>
+                <!-- <li><a href="{{ member.homepage }}" target="_blank"><i class="fi flaticon-linkedin"></i></a></li> -->
+                <!-- <li><a href="{{ member.youtube }}" target="_blank"><i class="fi flaticon-youtube"></i></a></li>
+                <li><a href="{{ member.pinterest }}" target="_blank"><i class="fi flaticon-pinterest"></i></a></li>
+                <li><a href="{{ member.facebook }}" target="_blank"><i class="fi flaticon-facebook"></i></a></li>
+                <li><a href="{{ member.twitter }}" target="_blank"><i class="fi flaticon-twitter"></i></a></li>
+                <li><a href="{{ member.google-plus }}" target="_blank"><i class="fi flaticon-google-plus"></i></a></li>
+                <li><a href="{{ member.vimeo }}" target="_blank"><i class="fi flaticon-vimeo"></i></a></li> -->
+              </ul>
+            </div>
           </div>
         </div>
-
-        {% endfor %}
-
       </div>
+
+      {% endfor %}
+
+    </div>
+
+    <div class="row team-members-container">
+
+      {% for member in site.team2 %}
+
+      <!-- Member -->
+      <div class="col-md-3 col-md-push-0 col-sm-6 col-sm-push-0 col-xs-6 col-xs-push-0">
+        <div class="team-member">
+          <!-- <div class="img-wrapper"> -->
+          <div>  
+            <img src="{{ site.baseurl }}/images/team/{{ member.avatar }}" alt="{{member.name}}" />
+          </div>
+          <div class="team-member-content">
+            <h3 class="name">{{ member.name }}</h3>
+            <h4 class="tagline">{{ member.tagline }}</h4>
+            <div class="social-icons">
+              <ul class="icons">
+                <li><a href="{{ member.linkedin }}" target="_blank"><i class="fi flaticon-linkedin"></i></a></li>
+                <!-- <li><a href="{{ member.youtube }}" target="_blank"><i class="fi flaticon-youtube"></i></a></li>
+                <li><a href="{{ member.pinterest }}" target="_blank"><i class="fi flaticon-pinterest"></i></a></li>
+                <li><a href="{{ member.facebook }}" target="_blank"><i class="fi flaticon-facebook"></i></a></li>
+                <li><a href="{{ member.twitter }}" target="_blank"><i class="fi flaticon-twitter"></i></a></li>
+                <li><a href="{{ member.google-plus }}" target="_blank"><i class="fi flaticon-google-plus"></i></a></li>
+                <li><a href="{{ member.vimeo }}" target="_blank"><i class="fi flaticon-vimeo"></i></a></li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
 
     </div>
 
