@@ -54,7 +54,7 @@ lang: en-US
 header-title: OptiStructure
 # Header Tagline
 #header-tagline: Optimizing Structural Design
-header-tagline: Optimizing design towards a sustainable construction industry
+header-tagline: Minimize the construction’s industry environmental footprint by means of OptiStructure’s service technological breakthrough in sustainable design, powered by
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -281,49 +281,49 @@ testimonials:
 # Client
 - name: Chara Ch. Mitropoulou
   url: https://www.linkedin.com/in/chara-mitropoulou-a6a7093b/
-  url-text: homepage
+  url-text: linkedin
   avatar: chara2.png
   cite: Chara holds an Integrated Master’s degree in Civil Engineering, MSc and PhD degrees in Structural 'Engineering from NTUA and an MBA degree from EAP. In the past Chara has worked as an analyst and developer in a technical software company and as freelancer structural engineer. Chara is the CEO and co-founder of Infersence.
   logo-img: codecanyon.png
 
 - name: Nikos Kallioras
   url: https://www.linkedin.com/in/nikos-kallioras-3695b27b/
-  url-text: homepage
+  url-text: linkedin
   avatar: nkalioras.png
   cite: Nikos holds an Integrated Master’s degree in Civil Engineering and a PhD degree in Applied Machine Learning from NTUA. In the past Nikos has worked as a freelancer civil engineer focusing on the design of residential buildings. Nikolaos is the CTO and co-founder of Infersence and leads the developing team of the OptiStructure.
   logo-img: codecanyon.png
 
 - name: George Kazakis
-  url: https://www.linkedin.com/in/stavros-chatzieleftheriou-09b15584/
-  url-text: homepage
+  url: https://www.linkedin.com/in/george-kazakis-649846162/
+  url-text: linkedin
   avatar: george2.png
   cite: George holds an Integrated Master’s degree in Geotechnical Engineering, MSc degree and PhD degrees in composite materials’ design  using topology optimization from NTUA. In the past George has worked as a freelance civil engineer. George is part of the developing team of the OptiStructure Service and he leads the OptiStructure Service provider team.
   logo-img: codecanyon.png
   
 - name: Spyridon Chandrinos
-  url: 
-  url-text: homepage
+  url: https://www.linkedin.com/in/spyros-chandrinos/
+  url-text: linkedin
   avatar: chandrinos1.jpg
   cite: Spyros holds an Integrated Master’s degree in Civil Engineering from NTUA and a MSc degree in Computational Finance from Carnegie Mellon University. In the past, Spyridon has worked as a trader in hedge funds and as engineer consultant in residential projects. Spyridon is part of the OptiStructure Service provider team.
   logo-img: codecanyon.png    
 
 - name: Dimitrios Gonidakis
-  url: 
-  url-text: homepage
+  url: https://www.linkedin.com/in/dimitrios-gonidakis-697a04159/
+  url-text: linkedin
   avatar: gonidakis1.jpg
   cite: Dimitrios holds an integrated Master’s degree in Architectural Engineering and MSc degree in Computational Mechanics from NTUA. Dimitrios worked as a freelancer architect focusing on the architectural design of public, hotel, and residential buildings. Dimitrios is part of the developing team of the OptiStructure Service.
   logo-img: codecanyon.png
 
 - name: Stefanos Voulgaris
-  url: 
-  url-text: homepage
+  url: https://www.linkedin.com/in/stefanos-voulgaris-714742223/
+  url-text: linkedin
   avatar: stvoulgaris1.png
   cite: Stefanos holds an Integrated Master’s degree in Civil Engineering from NTUA. Stefanos. In the past Stefanos has worked as a civil engineer focusing on the design of residential and industrial buildings. Stefanos is part of the developing and service provider teams of the OptiStructure Service.
   logo-img: codecanyon.png
 
 - name: Manos Stoumpos
-  url: 
-  url-text: homepage
+  url: https://www.linkedin.com/in/manos-stoumpos-747417205/
+  url-text: linkedin
   avatar: stoumpos1.jpg
   cite: Manos holds a Bachelor's degree in Informatics from AUTH, and an MSc in Data Science and Machine Learning from NTUA. His expertise is focused on Software Engineering and Machine Learning. Manos is part of the developing team of the OptiStructure Service.
   logo-img: codecanyon.png
@@ -398,8 +398,7 @@ team:
 ########## Pricing Tables ###########
 #####################################
 pricing-title: Our Vision
-pricing-description: <p>Our vision is to serve the United Nations Sustainable Development Goals <a href="https://sdgs.un.org/goals/goal11" target="_blank">(UN SDG) 11</a>. Make cities and human settlements inclusive, safe, resilient and sustainable.</p><p>We provide integrated optimization services in structural engineering projects and tailor-made software solutions. Our strategic aim is generating added value for our clients via AI optimization solutions. Our goal is to introduce applied optimization to everyday structural engineering practice.</p><p>Our Structural Optimization Computing Platform (SOCP) integrates AI technology with the leading structural design software for providing applied structural design optimization. Sophisticated in-house developed AI algorithms generate optimal structural designs with respect to client’s reference design. Optimality is assessed based on the structure's ecological footprint, construction cost, structural performance, etc.</p>
- 
+pricing-description: <p>Our vision is to serve the United Nations Sustainable Development Goals <a href="https://sdgs.un.org/goals/goal11" target="_blank">(UN SDG) 11</a>, Make cities and human settlements inclusive, safe, resilient and sustainable.</p><p>We provide integrated optimization services in structural engineering projects and tailor-made software solutions. Our strategic aim is generating added value for our clients via AI optimization solutions. Our goal is to introduce applied optimization to everyday structural engineering practice.</p><p>Our Structural Optimization Computing Platform (SOCP) integrates AI technology with the leading structural design software for providing applied structural design optimization. Sophisticated in-house developed AI algorithms generate optimal structural designs with respect to client’s reference design. Optimality is assessed based on the structure's ecological footprint, construction cost, structural performance, etc.</p>
 
 #
 # Plan Personal

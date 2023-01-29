@@ -2910,6 +2910,7 @@ h5 {
 
 h6 {
   font-size: 1.30rem;
+  font-weight: normal;
 }
 
 p {
@@ -4496,7 +4497,7 @@ section.collaborators-section {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: contain;
-  height: 700px;
+  height: 550px;
 }
 /* telos */
 
