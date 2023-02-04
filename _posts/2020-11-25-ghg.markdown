@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "October 2020"
+title: "November 2020"
 tagline: Single Page
-date: 2020-10-01 13:23
+date: 2020-11-25 13:23
 categories: [Optistructure]
 tags: [blog, optistructure]
 image: ghg1.png

@@ -1,0 +1,81 @@
+<div class="col-md-8 col-md-push-2 col-sm-12 section-content text-left">
+        <input class="radio-button" id="tab1" type="radio" name="tabs" checked="checked" />
+        <input class="radio-button" id="tab2" type="radio" name="tabs" />
+        <!-- <input class="radio-button" id="tab3" type="radio" name="tabs" /> -->
+        <input class="radio-button" id="tab4" type="radio" name="tabs" />
+        <input class="radio-button" id="tab5" type="radio" name="tabs" />
+        <input class="radio-button" id="tab6" type="radio" name="tabs" />
+        <input class="radio-button" id="tab7" type="radio" name="tabs" />
+        <input class="radio-button" id="tab8" type="radio" name="tabs" />
+        <input class="radio-button" id="tab9" type="radio" name="tabs" />
+        
+        <div class="labels">
+          <label for="tab1" class="tab-label label-2014">2014</label>
+          <label for="tab2" class="tab-label label-2015">2015</label>
+          <!-- <label for="tab3" class="tab-label label-2016">2016</label> -->
+          <label for="tab4" class="tab-label label-2017">2017</label>
+          <label for="tab5" class="tab-label label-2018">2018</label>
+          <label for="tab6" class="tab-label label-2019">2019</label>
+          <label for="tab7" class="tab-label label-2020">2020</label>
+          <label for="tab8" class="tab-label label-2021">2021</label>
+          <label for="tab9" class="tab-label label-2022">2022</label>
+        </div>
+        
+        <section class="tab-panel year-2014">
+          <ul>
+            <li><strong>January:</strong> Publication on the first, real-world, optimum design computing platform (<a href="https://link.springer.com/article/10.1007/s00158-013-1027-1" target="_blank" >OCP</a>) for civil structural systems. OCP is the basis of the OptiStructure service.</li>
+          </ul>
+        </section>
+        <section class="tab-panel year-2015">
+          <ul>
+            <li><strong>March:</strong> Successful POC for a French company, reduction by 8% on the material demands for a 500 meters high skyscraper.</li>
+          </ul> 
+        </section>
+        <!-- <section class="tab-panel year-2016">
+          <ul>
+            <li>Development of the first, real-world, optimum design computing platform (OCP) for civil structural systems</li>
+          </ul>
+        </section> -->
+        <section class="tab-panel year-2017">
+          <ul>
+            <li><strong>May:</strong> Fully operational integration of the OCP with SAP2000 structural analysis and design software.</li>
+          </ul>
+        </section>
+        <section class="tab-panel year-2018">
+          <ul>
+            <li><strong>February:</strong> Presentation of the OptiStructure service to the CSI channel partner conference and the headquarters of the CSI-America in San Francisco.</li>
+          </ul>
+        </section>
+        <section class="tab-panel year-2019">
+          <ul>
+            <li><strong>May:</strong> release of v2019 version of OCP, transition to an API library, for easier  integration with structural analysis and design software.</li>
+            <li><strong>September:</strong> Integration of the OCP with SCIA engineer structural analysis and design software.</li>
+            <li><strong>December:</strong> Successful POC, improvement by 6.5% of an already optimized complex steel structure in collaboration with SCIA engineer software.</li>
+            <li><strong>August:</strong> First version of the Topology Optimization-based generative design component integrated with SAP2000.</li>
+            <li><strong>December:</strong> Fully operational integration of the OCP with ETABS structural analysis and design software.</li>
+          </ul>
+        </section>
+        <section class="tab-panel year-2020">
+          <ul>
+            <li><strong>January:</strong> Successful POC for a Greek design office, reduction by 10% on the material demands for a 3-storey steel building structure.</li>
+            <li><strong>February:</strong> Release of v2020 version of OCP, transition of the core calculations from FORTRAN to C#.</li>
+            <li><strong>April:</strong> The developers of the OCP established Infersence, that is the legal entity that owns the rights of OptiStrucrure Service</li>
+            <li><strong>May:</strong> Successful POC for a Greek design office, reduction by 8% on the material demands for the 500 meters high skyscraper.</li>
+            <li><strong>October:</strong> Successful project for an Indian Company, improvement by 7.0% of an already optimized 15-storey RC building structure.</li>
+            <li><strong>December:</strong> Integration of a Machine Learning-based response surface for further reduction of the time required to deliver the optimized design.</li>
+          </ul>
+        </section>
+        <section class="tab-panel year-2021">
+          <ul>
+            <li><strong>March:</strong> First Prize of the <a href="https://www.nbg.gr/en/business/business-seeds/winners" target="_blank">11th seeds Innovation & Technology Competition</a> of the National Bank of Greece.</li>
+            <li><strong>August:</strong> Successful POC on two structures in Saudi Arabia.</li>
+            <li><strong>December:</strong> release of v2022 version of OCP.</li>
+          </ul>
+        </section>
+        <section class="tab-panel year-2022">
+          <ul>
+            <li><strong>June:</strong> Registration of the OptiStrucrure Service’s trade mark by <a href="https://euipo.europa.eu/eSearch/#basic/1+1+1+1/Optistructure" target="_blanl">EUIPO</a>.</li>
+            <li><strong>October:</strong> Integration of the Topology Optimization-based generative design component with <a href="https://www.3ds.com/products-services/simulia/products/abaqus/" target="_blank">ABAQUS</a> and <a href="https://freefem.org/" target="_blank">FreeFEM</a> finite element analysis software.</li>
+          </ul>
+        </section>
+      </div>

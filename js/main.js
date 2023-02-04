@@ -192,7 +192,7 @@
         loop:true,
         margin:10,
         autoPlay:true,
-        autoPlayTimeout:1000,
+        autoPlayTimeout:3000,
         autoplayHoverPause:true,
         // rewindSpeed:1000
         //https://owlcarousel2.github.io/OwlCarousel2/demos/autoplay.html

@@ -336,8 +336,8 @@ team-description:
 
 team:
 # Team Member
-- name: Prof. Nikos D. Lagaros
-  tagline: Prof. Nikos D. Lagaros, Dean of the School of Civil Engineering at the National Technical University of Athens, Director of the Personal Computers Laboratory, Professor of Structural Engineering. Nikos also served as Visiting Professor at MIT and McGill University. A focus of his consulting work is the assessment of buildings after earthquake events and the development of technical software for structural analysis and design optimization.
+- name: Nikos D. Lagaros
+  tagline: Nikos D. Lagaros, Dean of the School of Civil Engineering at the National Technical University of Athens, Director of the Personal Computers Laboratory, Professor of Structural Engineering. Nikos also served as Visiting Professor at MIT and McGill University. A focus of his consulting work is the assessment of buildings after earthquake events and the development of technical software for structural analysis and design optimization.
   avatar: lagaros.png
 
   # Social Links
@@ -351,8 +351,8 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: Dr. Farzad Naeim
-  tagline: Dr. Farzad Naeim, Founder and President of Farzad Naeim, Inc. Farzad manages and facilitates activities of teams of experts in R&D activities, special seismic studies, and the design of specialized computer applications for structural engineers. Among others, in the past he served as the Editor in Chief of the Earthquake Spectra Journal of EERI.
+- name: Farzad Naeim
+  tagline: Farzad Naeim, Founder and President of Farzad Naeim, Inc. Farzad manages and facilitates activities of teams of experts in R&D activities, special seismic studies, and the design of specialized computer applications for structural engineers. Among others, in the past he served as the Editor in Chief of the Earthquake Spectra Journal of EERI.
   avatar: farz_naeim.png
 
   # Social Links
@@ -365,8 +365,8 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: Prof. Nikolaos V. Sahinidis
-  tagline: Prof. Nikolaos V. Sahinidis, Professor of Chemical Engineering, Director of the Center for Advanced Process Decision-Making, Carnegie Mellon University. His research work is focused on the interface between computer science and operations research. Currently serves as the Editor in Chief of the Optimization and Engineering Journal.
+- name: Nikolaos V. Sahinidis
+  tagline: Nikolaos V. Sahinidis, Professor of Chemical Engineering, Director of the Center for Advanced Process Decision-Making, Carnegie Mellon University. His research work is focused on the interface between computer science and operations research. Currently serves as the Editor in Chief of the Optimization and Engineering Journal.
   avatar: sahinidis.png
 
   # Social Links
