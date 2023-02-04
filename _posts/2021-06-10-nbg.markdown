@@ -8,4 +8,4 @@ tags: [blog, optistructure]
 image: nbg.png
 ---
 
-Winner of the <a href="https://www.nbg.gr/en/business/business-seeds/winners" target="_blank">11th seeds Innovation & Technology Competition</a> of the National Bank of Greece.
+Winner of the <a href="https://www.nbg.gr/en/business/business-seeds/winners" target="_blank">11th Business Seeds Innovation & Technology Competition</a> of the National Bank of Greece.
