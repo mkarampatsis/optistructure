@@ -5430,11 +5430,11 @@ footer.site-footer .footer-copyright .footer-text {
 
 
 #redlink {
-  color: red;
+  color: orange;
 }
 
 #redlink a {
-  color: red;
+  color: orange;
 }
 
 #redlink a:hover, a:active {
