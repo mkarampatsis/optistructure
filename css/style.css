@@ -5427,3 +5427,16 @@ footer.site-footer .footer-copyright {
 footer.site-footer .footer-copyright .footer-text {
   width: 100%;
 }
+
+
+#redlink {
+  color: red;
+}
+
+#redlink a {
+  color: red;
+}
+
+#redlink a:hover, a:active {
+  color: #21c2f8
+}
