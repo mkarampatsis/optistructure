@@ -5440,3 +5440,7 @@ footer.site-footer .footer-copyright .footer-text {
 #redlink a:hover, a:active {
   color: #21c2f8
 }
+
+.contact img {
+  display: inline;
+}
