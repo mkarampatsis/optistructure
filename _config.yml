@@ -380,19 +380,19 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: Amjad Almkhalalati
-  tagline: Amjad Almkhalalati holds a MEng degree in Civil Engineering from the City University of London. Amjad is Chartered Engineer (CEng) and Fellow of the Institution of Civil Engineers (FICE), multi-disciplinary director integrating management with highly technical, commercial, and financial skills in major international infrastructure projects including innovative technologies such as hyperloop.
-  avatar: amjad1.jpg
+# - name: Amjad Almkhalalati
+#   tagline: Amjad Almkhalalati holds a MEng degree in Civil Engineering from the City University of London. Amjad is Chartered Engineer (CEng) and Fellow of the Institution of Civil Engineers (FICE), multi-disciplinary director integrating management with highly technical, commercial, and financial skills in major international infrastructure projects including innovative technologies such as hyperloop.
+#   avatar: amjad1.jpg
   
   # Social Links
-  homepage: 'https://ae.linkedin.com/in/amjad-almkhalalati-42a41629'
-  linkedin: '#'
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+  # homepage: 'https://ae.linkedin.com/in/amjad-almkhalalati-42a41629'
+  # linkedin: '#'
+  # youtube: '#'
+  # pinterest: '#'
+  # facebook: '#'
+  # twitter: '#'
+  # google-plus: '#'
+  # vimeo: '#'
 
 #####################################
 ########## Pricing Tables ###########
